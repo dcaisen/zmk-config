@@ -15,7 +15,7 @@
 &kp ESC     &kp Q       &kp W       &kp E       &kp R       &kp T          &kp Y       &kp U       &kp I       &kp O       &kp P       &kp C_MUTE
 &mt LSHIFT TAB &kp A    &kp S       &kp D       &kp F       &kp G          &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT
 &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B          &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RALT     
-                                    &mo LOWR    &kp RET     &kp LGUI       &kp BSPC    &kp SPACE   &mo RAIS
+                                    &mo LOWR    &kp LGUI    &kp RET        &kp SPACE   &kp BSPC    &mo RAIS
                         >;
 
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -34,7 +34,7 @@
 
                 raise_layer {
                         bindings = <
-&kp TILDE   &trans    &bt BT_SEL 0 &bt BT_SEL 1 &trans      &trans         &trans      &trans      &trans      &kp MINUS   &kp EQUAL   &trans
+&kp TILDE   &trans    &bt BT_SEL 0 &bt BT_SEL 1 &trans      &bootloader    &bootloader &trans      &trans      &kp MINUS   &kp EQUAL   &trans
 &trans      &trans      &trans      &trans      &trans      &trans         &trans      &trans      &trans      &trans      &trans      &trans
 &out OUT_TOG &bt BT_CLR &trans      &trans      &trans      &trans         &trans      &trans      &trans      &trans      &trans      &trans
                                     &trans      &trans      &trans         &trans      &trans      &trans
